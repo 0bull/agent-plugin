@@ -1,0 +1,19 @@
+{
+  "name": "0bull",
+  "version": "1.0.0",
+  "description": "Control real rented iPhones and publish videos to TikTok and YouTube Shorts through the 0bull MCP server. Skills and MCP server declaration; no runtime code.",
+  "license": "MIT",
+  "homepage": "https://0bull.net",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0bull/agent-plugin.git"
+  },
+  "files": ["skills", "README.md", "LICENSE", "plugin.json", "mcp.json", "openclaw.plugin.json"],
+  "openclaw": {
+    "compat": { "pluginApi": ">=2026.9.5" },
+    "install": { "clawhubSpec": "clawhub:0bull", "defaultChoice": "clawhub", "localPath": "." }
+  },
+  "scripts": {
+    "prepublishOnly": "node -e \"throw new Error('0bull ships through ClawHub and agent plugin catalogs, not the npm registry')\""
+  }
+}

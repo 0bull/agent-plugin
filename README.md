@@ -44,7 +44,7 @@ On a remote machine, follow the prompt: paste the redirect URL back, or forward 
 ## OpenClaw
 
 ```bash
-openclaw plugins install 0bull
+openclaw plugins install clawhub:0bull
 openclaw mcp add 0bull --url https://0bull.net/mcp --transport streamable-http
 openclaw mcp login 0bull
 ```
