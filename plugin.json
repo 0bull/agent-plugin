@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "0bull",
+  "version": "1.0.0",
+  "description": "Control real rented iPhones and publish videos to TikTok and YouTube Shorts through the 0bull MCP server.",
+  "author": { "name": "0bull", "email": "github@0bull.net", "url": "https://0bull.net" },
+  "homepage": "https://0bull.net",
+  "repository": "https://github.com/0bull/agent-plugin",
+  "license": "MIT",
+  "keywords": ["iphone", "ios", "tiktok", "youtube", "mcp"]
+}
